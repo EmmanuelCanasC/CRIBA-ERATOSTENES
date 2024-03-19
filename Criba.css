@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #primeListContainer,
+  #evenListContainer,
+  #oddListContainer {
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .list-title {
+    font-size: 18px;
+  }
+  
+  .result-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result-list li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
